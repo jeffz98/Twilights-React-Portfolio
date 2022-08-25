@@ -1,10 +1,13 @@
 import React from 'react';
 
 function Footer() {
+    const contactStyle = {
+        fontStyle: "italic"
+    }
     return (
         <>
             <div>
-                <h2 id="contact">Contact Me</h2>
+                <h2 id="contact" style={contactStyle}>Contact Me</h2>
                 <p id="contact"><a href="https://github.com/jeffz98">Github</a>
                     <a href="mailto:jeffz98@berkeley.edu">Email</a>
                 </p>

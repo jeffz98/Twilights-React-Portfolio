@@ -27,6 +27,7 @@ header {
 
 .profpic {
   border-radius: 100%;
+  box-shadow: 10px 10px 10px;
 }
 
 /* ensures the flexboxes wrap */
@@ -42,7 +43,7 @@ header {
   text-align: start;
   flex: 1 0 25%;
   box-shadow: 10px 10px 10px;
-  
+ 
 
   border: 5px var(--light-green) double;
   border-radius: 30px;
@@ -55,6 +56,9 @@ header {
   /* transition-property: background, transform; */
 }
 
+.card-image:hover {
+  transform: scale(1.1);
+}
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   /* Adjusts card size */
@@ -124,14 +128,29 @@ p {
 /* formats headers */
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6,
+p,
+a {
   text-align: center;
   /* background-color: rgb(255, 243, 240); */
-  color: black;
+  color: white;
+  
+}
+
+h2 {
+  font-size: xx-large;
 }
 
 .about {
   padding: 20px;
+  font-size: 25;
+}
+
+.aboutMe {
+  font-size: x-large;
 }
 
 #work {
@@ -161,8 +180,9 @@ figcaption {
 
 #contact {
   /* position: fixed; */
-  background-color: azure;
-  color: blueviolet;
+
+  background-color: rgba(240, 255, 255, 0.151);
+  color: rgba(255, 255, 255, 0.756);
   display: flex;
   flex-direction: column;
   align-items: center;

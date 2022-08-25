@@ -19,7 +19,7 @@ function App() {
   {/* About Me section */}
   <div>
     <h2 id="about" className="form_deets">About Me</h2>
-    <p>Hi there! My name is Jeffrey Zhang I am an aspiring full stack developer. My hobbies consist of gyming, 
+    <p className ="aboutMe">Hi there! My name is Jeffrey Zhang I am an aspiring full stack developer. My hobbies consist of gyming, 
       playing volleyball, gaming, and hanging with friends! I have a background in Cognitive Science and a few years
       of learning different coding languages like Java, Python, C++, HTML, CSS. I have a golden retriever named Max who is 8
       years old and is very adorable :).
