@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Twilights-React-Portfolio/static/css/main.ede53759.css",
-    "main.js": "/Twilights-React-Portfolio/static/js/main.467d8b4f.js",
+    "main.css": "/Twilights-React-Portfolio/static/css/main.6926417b.css",
+    "main.js": "/Twilights-React-Portfolio/static/js/main.a4050d3e.js",
     "static/js/787.da8e6232.chunk.js": "/Twilights-React-Portfolio/static/js/787.da8e6232.chunk.js",
     "static/media/logo.svg": "/Twilights-React-Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Twilights-React-Portfolio/index.html",
-    "main.ede53759.css.map": "/Twilights-React-Portfolio/static/css/main.ede53759.css.map",
-    "main.467d8b4f.js.map": "/Twilights-React-Portfolio/static/js/main.467d8b4f.js.map",
+    "main.6926417b.css.map": "/Twilights-React-Portfolio/static/css/main.6926417b.css.map",
+    "main.a4050d3e.js.map": "/Twilights-React-Portfolio/static/js/main.a4050d3e.js.map",
     "787.da8e6232.chunk.js.map": "/Twilights-React-Portfolio/static/js/787.da8e6232.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ede53759.css",
-    "static/js/main.467d8b4f.js"
+    "static/css/main.6926417b.css",
+    "static/js/main.a4050d3e.js"
   ]
 }
