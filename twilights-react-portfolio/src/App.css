@@ -1,38 +1,213 @@
-.App {
-  text-align: center;
+/* Global color variables */
+:root {
+  --light-green: rgb(143, 182, 131);
+  --dark-green: rgb(0, 92, 32);
+  --gradient-green: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,92,32,1) 35%);
+  --redish: rgb(249, 237, 237);
+  --white: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Font Style */
+*{ 
+  font-family:sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* header style */
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: lightblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+/* ensures the flexboxes wrap */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* formats the cards and styles them with aligning, background, padding */
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  flex: 1 0 25%;
+  
+
+  border: 5px var(--light-green) double;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  background: peachpuff;
+  color: var(--white);
+
+  /* transition-duration: 400ms; */
+  /* transition-property: background, transform; */
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* Adjusts card size */
+  .card {
+      flex: 1 0 300px; 
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Media query for mobile phones */
+@media screen and (max-width: 767px) {
+  /* Adjusts card size */
+  .card {
+      flex: 1 0 200px;
+  }
+}
+
+/* list style */
+li {
+  list-style-type: none;
+  display: inline;
+  margin: 1rem;
+}
+
+/*formats links  */
+a {
+  text-decoration: none;
+  color:black;
+  width: 80%;
+}
+
+/* formatting prof pic size */
+#prof_pic {
+  height: 20%;
+  width: 30%;
+  align-content: center;
+}
+
+/* formats images under work section */
+#work_img{
+  height: 80%;
+  width: 100%;
+  margin-bottom: 25px;
+  background-size: cover;
+  background-position: center;
+  display: block;
+}
+
+/* styles body */
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+/* formats main */
+main {
+  padding-top: 100px;
+}
+
+/* formats paragraphs */
+p {
+  width: 80%;
+  margin: auto;
+}
+
+/* formats headers */
+h1,
+h2,
+h3 {
+  text-align: center;
+  /* background-color: rgb(255, 243, 240); */
+  color: black;
+}
+
+.about {
+  padding: 20px;
+}
+
+#work {
+  text-align: center;
+  color: black;
+}
+
+#resume {
+  color:black;
+}
+
+#work1 {
+  width:80%;
+  height: 80%;
+  margin: 5%;
+}
+
+figcaption {
+  text-align: center;
+  background-color: aquamarine;
+}
+
+#work_pics {
+  width: 50%;
+  height: 50%;
+}
+
+#contact {
+  /* position: fixed; */
+  background-color: azure;
+  color: blueviolet;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  
 }
 
-.App-link {
-  color: #61dafb;
+/* style for headers */
+.form_deets {
+  margin: 1rem;
+  border: 2px solid crimson;
+  border-radius: 16px;
+  padding: 2rem;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* secondary styling for headers */
+.form_deets2 {
+  margin: 1rem;
+  border: 2px solid rgb(220, 20, 183);
+  border-radius: 16px;
+  background-color: deepskyblue;
+  padding: 2rem;
+
 }
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+
+}
+
+button {
+  position: relative;
+}
+
+
+
+/* footer style */
+footer {
+  display:flex;
+  flex-direction: column;
+  position:relative;
+  color: black;
+  align-items:center;
+  font-size: large;
+}
+
+footer nav {
+  margin: 1rem;
+  font-size: 1rem;
+}
+
+
