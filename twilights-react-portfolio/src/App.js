@@ -14,7 +14,7 @@ function App() {
 
   {/* Profile pic */}
   <section className="text-center">
-    <img className="w-25 p-3" src="https://jeffz98.github.io/Twilights_Portfolio/Images/JeffProf.jpeg" id="prof_pic" alt="Profile Picture with my Face" />
+    <img className="w-25 p-3 profpic" src="https://jeffz98.github.io/Twilights_Portfolio/Images/JeffProf.jpeg" id="prof_pic" alt="Profile Picture with my Face" />
   </section>
   {/* About Me section */}
   <div>

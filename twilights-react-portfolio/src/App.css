@@ -4,7 +4,7 @@
   --dark-green: rgb(0, 92, 32);
   --gradient-green: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,92,32,1) 35%);
   --redish: rgb(249, 237, 237);
-  --white: white;
+  --black: black;
 }
 
 /* Font Style */
@@ -17,12 +17,16 @@ header {
   position: fixed;
   top: 0px;
   width: 100%;
-  background-color: lightblue;
+  background-image: linear-gradient(to right, rgb(0, 194, 243) , rgb(0, 104, 224));
   color: white;
   display: flex;
   align-items: center;
   justify-content: space-around;
   
+}
+
+.profpic {
+  border-radius: 100%;
 }
 
 /* ensures the flexboxes wrap */
@@ -37,14 +41,15 @@ header {
   flex-direction: column;
   text-align: start;
   flex: 1 0 25%;
+  box-shadow: 10px 10px 10px;
   
 
   border: 5px var(--light-green) double;
-  border-radius: 10px;
+  border-radius: 30px;
   padding: 20px;
   margin: 20px;
-  background: peachpuff;
-  color: var(--white);
+  background: #ff7700;
+  color: var(--black);
 
   /* transition-duration: 400ms; */
   /* transition-property: background, transform; */
@@ -102,6 +107,7 @@ body {
   position: relative;
   margin: 0;
   padding: 0;
+  background-image: linear-gradient(to right, rgba(191, 0, 0, 0.75) , rgba(205, 205, 1, 0.81));
 }
 
 /* formats main */
