@@ -26,8 +26,8 @@ function Project() {
                         <div className="card">
                             <div className="card-image has-text-centered px-6">
                                 <figure className="image is-4by3">
-                                    <h2>Mini project working with Flexboxes</h2>
-                                    <a href="https://github.com/jeffz98/my-special-mini-project"><img src="https://jeffz98.github.io/Twilights_Portfolio/Images/Proj1.png" id="work1" alt="Picture of first project with flexbox" /></a>
+                                    <h2>Hireable-Hippo-Helpers</h2>
+                                    <a href="https://github.com/espinbrandon49/Hireable-Hippo-Helper"><img src="https://github.com/espinbrandon49/Hireable-Hippo-Helper/raw/main/client/src/images/Hireable%20Hippo%20Helper.gif" id="work1" alt="Application Tracker" /></a>
                                 </figure>
                             </div>
                         </div>
