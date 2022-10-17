@@ -15,7 +15,7 @@ function Footer() {
 
             <div>
                 <h2 id="resume">Resume</h2>
-                <p id="contact"><a href="https://templates.office.com/en-us/student-resume-modern-design-tm16402487">Resume </a></p>
+                <p id="contact"><a href="https://docs.google.com/document/d/1qnbFyeS_U6smEYpSLajAdWIacLfw8z4m08H5bXM4GUg/edit?usp=sharing">Resume </a></p>
             </div>
             <footer>
                 <h4>Made with HTML and CSS</h4>
